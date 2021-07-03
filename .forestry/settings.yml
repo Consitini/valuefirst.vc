@@ -1,27 +1,23 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Careers
-- type: heading
-  label: Pages
+  label: Website
 - type: directory
   path: pages
   label: Pages
   create: documents
   match: "**/*"
   new_doc_ext: md
-- type: heading
+- type: directory
+  path: posts
   label: Posts
-- type: heading
-  label: Landing Pages
-- type: heading
-  label: Site-wide
-- type: heading
-  label: Templates
+  create: all
+  match: "**/*"
+  new_doc_ext: md
 upload_dir: static
 public_path: https://valufirstvc-images.s3.ap-southeast-2.amazonaws.com
 front_matter_path: ''
