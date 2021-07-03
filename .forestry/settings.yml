@@ -4,12 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: posts
-  label: Posts
-  create: all
-  match: "/posts/*"
-  new_doc_ext: ".md"
 - type: heading
   label: Website
 - type: directory
@@ -18,6 +12,12 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
+- type: directory
+  path: posts
+  label: Posts
+  create: all
+  match: "/posts/*"
+  new_doc_ext: ".md"
 upload_dir: static
 public_path: https://valufirstvc-images.s3.ap-southeast-2.amazonaws.com
 front_matter_path: ''
