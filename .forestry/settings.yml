@@ -13,11 +13,11 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: directory
-  path: posts
+  path: valuefirst.vc/tree/master/posts
   label: Posts
   create: all
   match: "/posts/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: static
 public_path: https://valufirstvc-images.s3.ap-southeast-2.amazonaws.com
 front_matter_path: ''
