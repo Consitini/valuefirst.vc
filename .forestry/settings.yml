@@ -22,7 +22,7 @@ sections:
   label: Site-wide
 - type: heading
   label: Templates
-upload_dir: ''
+upload_dir: static
 public_path: https://valufirstvc-images.s3.ap-southeast-2.amazonaws.com
 front_matter_path: ''
 use_front_matter_path: 
