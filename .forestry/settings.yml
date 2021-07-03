@@ -13,7 +13,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: directory
-  path: valuefirst.vc/tree/master/posts
+  path: valuefirst.vc/posts
   label: Posts
   create: all
   match: "/posts/*"
